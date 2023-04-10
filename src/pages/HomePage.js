@@ -19,7 +19,9 @@ function HomePage() {
   return (
     <div>
       <h1>OpenSea NFT Gallery</h1>
-      <ImageGrid images={images} />
+      <div style={{ display: "flex" , margin: "20px 40px" , width: "100%"}}>
+        <ImageGrid images={images} />
+      </div>
     </div>
   );
 }
